@@ -1,0 +1,113 @@
+.contact-info{
+    background-color: #082A4A;
+    padding: 0.6vw;
+    color: white;
+}
+
+i{
+    padding: 0.2vw;
+}
+
+a{
+    color: gray;
+}
+
+.intro{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-image: url(1649333348291984962.jpg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7vw 0 7vw 0;
+    min-height: 80vh;
+    background-position: center;
+}
+.w-75{
+    margin-left: 1rem;
+}
+.services{
+    background-color: #eef2f6;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding: 7vw 0 7vw 0;
+}
+#left-to-right-gradient{
+    background: linear-gradient(90deg, #5a154a, #922278);
+}
+#left-to-right-gradient1{
+    background: linear-gradient(90deg, #a13172, #c33e8b);
+}
+#left-to-right-gradient2{
+    background: linear-gradient(270deg, #e73056, #e95038);
+}
+#left-to-right-gradient3{
+    background: linear-gradient(270deg, #f28a19, #f9b107);
+}
+#left-to-right-gradient4{
+    background: linear-gradient(270deg, #77ac43, #94ca5f);
+}
+#left-to-right-gradient5{
+    background: linear-gradient(270deg, #235683, #048fa3);
+}
+#left-to-right-gradient6{
+    background: linear-gradient(270deg, #48b2bc, #95d0d3);
+}
+#left-to-right-gradient7{
+    background: linear-gradient(270deg, #279a96, #2eaea9);
+}
+/* col-lg-5{
+    width: auto;
+} */
+.feedback{
+    background-color: #eef2f6;
+}
+.footer{
+    background-color: #082a4a;
+}
+
+@media (min-width: 576px) {
+    .contact-info {
+      padding: 1rem;
+    }
+  
+    .intro {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      min-height: auto;
+      background-position: center;
+      min-height: 80vh;
+    }
+  
+    .text-white h2.col-4 {
+      font-size: 1.5rem;
+    }
+  
+    .text-white p.col-6 {
+      font-size: 0.9rem;
+    }
+  
+    .services {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  
+    .services .col-lg-3 {
+      /* flex: 0 0 50%; */
+      max-width: 50%;
+    }
+  
+    .feedback {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  
+    .footer {
+      padding: 2rem 0;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .intro{
+        background-position-x: 60% ;
+    }
+}
